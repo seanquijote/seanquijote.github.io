@@ -22,9 +22,6 @@ GPL-3.0
 @ng-toolkit/universal
 MIT
 
-angular-particle
-MIT
-
 angular2-fontawesome
 MIT
 The MIT License (MIT)
@@ -49,9 +46,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-angular2-image-gallery
-MIT
 
 angular2-materialize
 MIT
