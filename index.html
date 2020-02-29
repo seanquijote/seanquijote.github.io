@@ -1,33 +1,38 @@
 <!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 	<head>
-	  	<title>Sean Quijote - Junior Software Engineer</title>
-	  	<base href="/">
+    <title>Sean Quijote - Junior Software Engineer</title>
+    <base href="/">
 
 		<meta charset="UTF-8" />
-	   	<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="I'm a Junior Software Engineer living in Cebu" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Just a Junior Software Engineer living in Cebu" />
 		<meta name="keywords" content="seanquijote, sean quijote, quijote" />
 		<meta name="language" content="en" />
 		<meta name="robots" content="index,follow" />
-		<meta name="google-site-verification" content="VsLMgYPY3pBEYxCs60VeUB_HVLD3pchgrGCPd7pFCC4" />		
 
 		<meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
 		<meta http-equiv="expires" content="0">
 		<meta http-equiv="pragma" content="no-cache">
 
-		<meta property="og:site_name" content="Sean Kyle Niño Quijote" />
-		<meta property="og:url" content="http://seanquijote.com/" />
+		<meta property="og:site_name" content="Sean Quijote" />
+		<meta property="og:url" content="https://seanquijote.github.io/" />
 		<meta property="og:title" content="Sean Quijote - Junior Software Engineer" />
-		<meta property="og:description" content="I'm a Junior Software Engineer living in Cebu" />
+		<meta property="og:description" content="Just a Junior Software Engineer living in Cebu" />
 		<meta property="og:type" content="website" />
 		<meta property="og:locale" content="en_US" />
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" media="(prefers-color-scheme:dark)" type="image/png" href="favicon-dark.png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" type="image/png" href="favicon-light.png" />
+    <script src="https://unpkg.com/favicon-switcher@1.0.4/dist/index.js" crossorigin="anonymous" type="application/javascript"></script>
 
 		<style type="text/css">
 			body, html {
 				height: 100%;
-				background-color: #303030;
-			}
+        background-color: #1f1f1f;
+        overflow-x: hidden;
+      }
 			.app-loading {
 				position: relative;
 				display: flex;
@@ -36,6 +41,8 @@
 				justify-content: center;
 				height: 100%;
 				min-height: 100vh;
+				overflow-x: hidden;
+				overflow-y: hidden;
 			}
 			.app-loading .spinner {
 				height: 200px;
@@ -57,6 +64,11 @@
 				stroke: #ddd;
 			}
 
+			.logo {
+				height: 60px;
+				width: 60px;
+			}
+
 			.flash{
 				color: #fff;
 				height: 60px;
@@ -65,13 +77,13 @@
 				animation: flash linear 1s infinite;
 			}
 			@-webkit-keyframes flash {
-				0% { opacity: 1; } 
-				50% { opacity: .1; } 
+				0% { opacity: 1; }
+				50% { opacity: .1; }
 				100% { opacity: 1; }
 			}
 			@keyframes flash {
-				0% { opacity: 1; } 
-				50% { opacity: .1; } 
+				0% { opacity: 1; }
+				50% { opacity: .1; }
 				100% { opacity: 1; }
 			}
 
@@ -95,35 +107,39 @@
 				}
 			}
 		</style>
-	  	<link rel="icon" type="image/x-icon" href="favicon.ico">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
-	<link rel="stylesheet" href="styles.1c7c541b94ed8a0ab74f.css"></head>
+  <link rel="stylesheet" href="styles.34e9ba3b732882fceeb7.css"></head>
 
 	<body>
 		<h1 style="display: none;">Sean Quijote - Junior Software Engineer</h1>
 		<app-root>
 			<div class="app-loading">
-				<img class="flash" src="assets/images/logo_wht.png">
+				<img class="logo" src="assets/images/my-logo-wht.png" style="height: 130px; width: 80px;">
 				<svg class="spinner" viewBox="25 25 50 50">
-				 	<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+				 	<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="1" stroke-miterlimit="10"/>
 				</svg>
 			</div>
 		</app-root>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="assets/js/initializations.js"></script>
+		<!-- Google Analytics for seanquijote.github.io -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121898871-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-
 			gtag('config', 'UA-121898871-1');
 		</script>
 
-		<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script>
-		<script type="text/javascript" src="polyfills.e3633a42d1123afc5fc9.js"></script>
-		<script type="text/javascript" src="scripts.cae214345770b3919388.js"></script>
-		<script type="text/javascript" src="main.5b10ac3d61824d809003.js"></script>
-	</body>
+		<!-- Google Analytics for seanquijote.com -->
+<!-- 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121898871-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-121898871-2');
+		</script> -->
+
+	<script type="text/javascript" src="runtime.26209474bfa8dc87a77c.js"></script><script type="text/javascript" src="polyfills.5b5c514d83a60ce973bc.js"></script><script type="text/javascript" src="scripts.468aa4e57bcec1ee5b25.js"></script><script type="text/javascript" src="main.a69e770fc02e5850786f.js"></script></body>
 </html>
